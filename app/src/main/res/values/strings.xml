@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">OurBank</string>
+    <string name="politica_de_privacidade_completa">
+        <b>1. Coleta de Dados:</b> O Bradesco coleta dados pessoais (fornecidos pelo usuário ou por terceiros) e dados automáticos do
+        dispositivo (IMEI, modelo, geolocalização, etc.) e dados sensíveis (biometria).\n\n
+
+        <b>2. Finalidade Principal:</b> A coleta visa principalmente a identificação, autenticação, cumprimento de obrigações legais e,
+        crucialmente, a prevenção de fraudes e segurança durante o uso do aplicativo.\n\n
+
+        <b>3. Segurança e Sigilo:</b> As informações são armazenadas de forma segura, íntegra, controlada e sigilosa, com acesso apenas por
+        pessoas autorizadas. Os dados são mantidos pelo tempo necessário para as finalidades declaradas.\n\n
+
+        <b>4. Compartilhamento:</b> Os dados podem ser compartilhados com outras empresas da Organização Bradesco (para produtos/serviços),
+        com órgãos regulamentadores (BACEN, Receita Federal) e terceiros para validação de informações.\n\n
+
+        <b>5. Direitos do Titular:</b> O usuário tem direitos garantidos pela LGPD, incluindo acesso, correção, eliminação (quando cabível),
+        anonimização e revogação do consentimento.
+    </string>
 </resources>
