@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/gradient_background"
+tools:context=".TelaPerfilUsuario">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="20dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Davi Santos"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="***.000.000-**"
+            android:textColor="#AFAFAF"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Editar Perfil"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>
+
+<View
+    android:layout_width="370dp"
+    android:layout_height="1sp"
+    android:background="@android:color/darker_gray"
+    tools:layout_editor_absoluteX="25dp"
+    tools:layout_editor_absoluteY="125dp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="30dp">
+
+</LinearLayout>
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Número de conta"
+    android:textColor="@android:color/white"
+    android:textSize="16sp"
+    tools:layout_editor_absoluteX="25dp"
+    tools:layout_editor_absoluteY="157dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="0000000-2"
+    android:textColor="@android:color/white"
+    android:textSize="16sp"
+    tools:layout_editor_absoluteX="317dp"
+    tools:layout_editor_absoluteY="157dp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="8dp">
+
+</LinearLayout>
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Agencia"
+    android:textColor="@android:color/white"
+    android:textSize="16sp"
+    tools:layout_editor_absoluteX="25dp"
+    tools:layout_editor_absoluteY="186dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="0066"
+    android:textColor="@android:color/white"
+    android:textSize="16sp"
+    tools:layout_editor_absoluteX="358dp"
+    tools:layout_editor_absoluteY="186dp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+</LinearLayout>
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Banco"
+    android:textColor="@android:color/white"
+    android:textSize="16sp"
+    tools:layout_editor_absoluteX="25dp"
+    tools:layout_editor_absoluteY="215dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="001 - Ourbank"
+    android:textColor="@android:color/white"
+    android:textSize="16sp"
+    tools:layout_editor_absoluteX="295dp"
+    tools:layout_editor_absoluteY="215dp" />
+
+<View
+    android:layout_width="370dp"
+    android:layout_height="1sp"
+    android:background="@android:color/darker_gray"
+    tools:layout_editor_absoluteX="25dp"
+    tools:layout_editor_absoluteY="269dp" />
+
+<LinearLayout
+    android:layout_width="370dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp"
+    android:paddingHorizontal="1sp">
+
+</LinearLayout>
+
+<TextView
+    android:layout_width="370dp"
+    android:layout_height="44dp"
+    android:background="@drawable/rounded_option_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:paddingStart="16dp"
+    android:text="Notificações"
+    android:textColor="@android:color/white"
+    android:textSize="15dp"
+    tools:layout_editor_absoluteX="25dp"
+    tools:layout_editor_absoluteY="325dp" />
+
+<TextView
+    android:layout_width="370dp"
+    android:layout_height="40dp"
+    android:background="@drawable/rounded_option_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:paddingStart="16dp"
+    android:text="FAQ"
+    android:textColor="@android:color/white"
+    android:textSize="15dp"
+    tools:layout_editor_absoluteX="25dp"
+    tools:layout_editor_absoluteY="377dp" />
+
+<TextView
+    android:layout_width="370dp"
+    android:layout_height="40dp"
+    android:background="@drawable/rounded_option_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:paddingStart="16dp"
+    android:text="Central de Segurança"
+    android:textColor="@android:color/white"
+    android:textSize="15dp"
+    tools:layout_editor_absoluteX="25dp"
+    tools:layout_editor_absoluteY="425dp" />
+
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounder_help_center_background"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:text="Central de Segurança"
+        android:textColor="@android:color/white"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_help_center"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_help_center"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="612dp" />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:background="#202020"
+    app:layout_constraintBottom_toBottomOf="parent">
+
+    <TextView style="@style/BottomNavItem" android:text="Home" android:textStyle="bold"/>
+    <TextView style="@style/BottomNavItem" android:text="Cartões" android:textStyle="bold"/>
+    <TextView style="@style/BottomNavItem" android:text="Finanças" android:textStyle="bold"/>
+    <TextView style="@style/BottomNavItem" android:text="Perfil" android:textStyle="bold"/>
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+        
+        
+
+        
+
+
