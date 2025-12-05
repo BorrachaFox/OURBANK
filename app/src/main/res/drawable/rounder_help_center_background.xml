@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Cor de fundo do destaque (ajuste a cor se necessário) -->
+    <solid android:color="#303030" />
+    <!-- Cantos arredondados apenas na lateral esquerda para combinar com o botão principal -->
+    <corners
+        android:topLeftRadius="0dp"
+        android:bottomLeftRadius="0dp"
+        android:topRightRadius="8dp"
+        android:bottomRightRadius="8dp"/>
+</shape>
